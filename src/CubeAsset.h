@@ -18,6 +18,8 @@ class CubeAsset : public GameAsset {
  private:
   GLuint element_buffer_length;
   GLuint vertex_buffer_token, element_buffer_token;
+  //
+  GLuint cube_colors_token;
 };
 
 #endif // CUBEASSET_H

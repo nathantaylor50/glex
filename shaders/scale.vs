@@ -32,5 +32,5 @@ void main() {
       gl_Position = projection(radians(45.0), 4.0/3.0, -0.1, -1000.0)
                     * scale(2.0, 0.5, 1.0)
                     * vec4(position, 1.0f);
-      frag_color = vec3(1.0, 1.0, 1.0); // white
+      frag_color = vec3(1.0, 0.0, 0.0); // white
 }
