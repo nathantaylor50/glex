@@ -16,20 +16,7 @@ CubeAsset::CubeAsset() {
 		  -0.5f, 0.5f, -0.5f,
   };
 
-  //color
-  GLfloat cube_colors[] = {
-	  //front colors
-	  1.0, 0.0, 0.0,
-	  0.0, 1.0, 0.0,
-	  0.0, 0.0, 1.0,
-	  1.0, 1.0, 1.0,
-	  //back colors
-	  1.0, 0.0, 0.0,
-	  0.0, 1.0, 0.0,
-	  0.0, 0.0, 1.0,
-	  1.0, 1.0, 1.0,
 
-  };
 
   element_buffer_length = 12;
   GLuint element_buffer []  {
@@ -112,6 +99,9 @@ void CubeAsset::Draw(GLuint program_token) {
   }
 
   GLuint position_attrib = glGetAttribLocation(program_token, "position");
+
+
+
   checkGLError();
 
   glUseProgram(program_token);

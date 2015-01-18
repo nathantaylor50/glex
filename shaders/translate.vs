@@ -4,6 +4,9 @@ in vec3 position;
 
 out vec3 frag_color;
 
+//matrix camera
+uniform mat4 MVP;
+
 mat4 projection(
     float angle_of_view_y,
     float aspect_ratio,
@@ -30,7 +33,8 @@ mat4 translate(float x, float y, float z) {
 
 void main() {
       gl_Position = projection(radians(45.0), 4.0/3.0, -0.1, -1000.0)
-                      * translate(0.0, 0.0, -5.0)
+      				  * MVP
+                      * translate(0.0, 0.0, 0.0)
                       * vec4(position, 1.0f);
       frag_color = vec3(1.0, 0.0, 0.0); // white
 }

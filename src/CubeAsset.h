@@ -8,6 +8,7 @@
 #include <glm/ext.hpp>
 
 #include "GameAsset.h"
+class GameWorld;
 
 class CubeAsset : public GameAsset {
  public:

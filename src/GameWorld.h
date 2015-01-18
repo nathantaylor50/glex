@@ -7,6 +7,7 @@
 
 #include "common.h"
 #include "GameAssetManager.h"
+class CubeAsset;
 #include "CubeAsset.h"
 
 /**
@@ -24,10 +25,15 @@ class GameWorld {
   GameWorld(ApplicationMode);
 
   /**
+   * generate camera matrix
+   */
+  void Cam(GLuint program_token);
+  /**
    * Calling Draw() will draw the entire world.
    */
   void Draw();
  private:
   std::shared_ptr<GameAssetManager> asset_manager;
+  glm::mat4 cam;
 };
 #endif // GAMEWORLD_H
