@@ -14,10 +14,15 @@ On Fedora 20 or later you can install these using a single command (as root):
 
 # controls #
 W - forward
+
 s - backward
+
 A - left
+
 D - right
+
 Spacebar - up
+
 X - down
 
 # Building #
