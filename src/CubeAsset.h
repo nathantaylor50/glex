@@ -23,6 +23,7 @@ class CubeAsset : public GameAsset {
   //storage of pointer
   std::shared_ptr<GameWorld> game_world;
   GLuint cube_colors_token;
+;
 };
 
 #endif // CUBEASSET_H

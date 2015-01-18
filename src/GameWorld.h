@@ -2,6 +2,8 @@
 #define GAMEWORLD_H
 
 #include <memory>
+//for the getTicks()
+#include <SDL2/SDL.h>
 
 #include <GL/gl.h>
 
@@ -24,10 +26,44 @@ class GameWorld {
    */
   GameWorld(ApplicationMode);
 
+
+  /*
+   * move CAM forward
+   */
+  void CAM_Forward();
+
+  /*
+   * move CAM back
+   */
+  void CAM_Back();
+
+  /*
+   * move CAM left
+   *
+   */
+  void CAM_Left();
+
+  /*
+   * move CAM right
+   */
+  void CAM_Right();
+
+  /*
+   * move CAM up
+   */
+  void CAM_Up();
+
+  /*
+   * move CAM Down
+   */
+  void CAM_Down();
+
+
   /**
    * generate camera matrix
    */
   void Cam(GLuint program_token);
+
   /**
    * Calling Draw() will draw the entire world.
    */

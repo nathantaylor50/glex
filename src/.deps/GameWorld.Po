@@ -88,10 +88,41 @@ GameWorld.o: GameWorld.cc /usr/include/stdc-predef.h GameWorld.h \
  /usr/include/c++/4.8.3/bits/unique_ptr.h \
  /usr/include/c++/4.8.3/bits/shared_ptr.h \
  /usr/include/c++/4.8.3/bits/shared_ptr_base.h \
- /usr/include/c++/4.8.3/backward/auto_ptr.h /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/inttypes.h common.h \
- GameAssetManager.h /usr/include/c++/4.8.3/vector \
- /usr/include/c++/4.8.3/bits/stl_vector.h \
+ /usr/include/c++/4.8.3/backward/auto_ptr.h /usr/include/SDL2/SDL.h \
+ /usr/include/SDL2/SDL_main.h /usr/include/SDL2/SDL_stdinc.h \
+ /usr/include/SDL2/SDL_config.h /usr/include/SDL2/SDL_config-x86_64.h \
+ /usr/include/SDL2/SDL_platform.h /usr/include/SDL2/begin_code.h \
+ /usr/include/SDL2/close_code.h /usr/include/string.h \
+ /usr/include/strings.h /usr/include/inttypes.h /usr/include/math.h \
+ /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
+ /usr/include/bits/huge_vall.h /usr/include/bits/inf.h \
+ /usr/include/bits/nan.h /usr/include/bits/mathdef.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathinline.h \
+ /usr/include/iconv.h /usr/include/SDL2/SDL_assert.h \
+ /usr/include/SDL2/SDL_atomic.h /usr/include/SDL2/SDL_audio.h \
+ /usr/include/SDL2/SDL_error.h /usr/include/SDL2/SDL_endian.h \
+ /usr/include/SDL2/SDL_mutex.h /usr/include/SDL2/SDL_thread.h \
+ /usr/include/SDL2/SDL_rwops.h /usr/include/SDL2/SDL_clipboard.h \
+ /usr/include/SDL2/SDL_cpuinfo.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/mmintrin.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/xmmintrin.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/mm_malloc.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/emmintrin.h \
+ /usr/include/SDL2/SDL_events.h /usr/include/SDL2/SDL_video.h \
+ /usr/include/SDL2/SDL_pixels.h /usr/include/SDL2/SDL_rect.h \
+ /usr/include/SDL2/SDL_surface.h /usr/include/SDL2/SDL_blendmode.h \
+ /usr/include/SDL2/SDL_keyboard.h /usr/include/SDL2/SDL_keycode.h \
+ /usr/include/SDL2/SDL_scancode.h /usr/include/SDL2/SDL_mouse.h \
+ /usr/include/SDL2/SDL_joystick.h /usr/include/SDL2/SDL_gamecontroller.h \
+ /usr/include/SDL2/SDL_quit.h /usr/include/SDL2/SDL_gesture.h \
+ /usr/include/SDL2/SDL_touch.h /usr/include/SDL2/SDL_filesystem.h \
+ /usr/include/SDL2/SDL_haptic.h /usr/include/SDL2/SDL_hints.h \
+ /usr/include/SDL2/SDL_loadso.h /usr/include/SDL2/SDL_log.h \
+ /usr/include/SDL2/SDL_messagebox.h /usr/include/SDL2/SDL_power.h \
+ /usr/include/SDL2/SDL_render.h /usr/include/SDL2/SDL_system.h \
+ /usr/include/SDL2/SDL_timer.h /usr/include/SDL2/SDL_version.h \
+ /usr/include/GL/gl.h /usr/include/GL/glext.h common.h GameAssetManager.h \
+ /usr/include/c++/4.8.3/vector /usr/include/c++/4.8.3/bits/stl_vector.h \
  /usr/include/c++/4.8.3/bits/stl_bvector.h \
  /usr/include/c++/4.8.3/bits/vector.tcc /usr/include/c++/4.8.3/fstream \
  /usr/include/c++/4.8.3/istream /usr/include/c++/4.8.3/ios \
@@ -116,11 +147,7 @@ GameWorld.o: GameWorld.cc /usr/include/stdc-predef.h GameWorld.h \
  /usr/include/c++/4.8.3/bits/fstream.tcc /usr/include/c++/4.8.3/iostream \
  GameAsset.h CubeAsset.h /usr/include/glm/glm.hpp \
  /usr/include/glm/core/_fixes.hpp /usr/include/c++/4.8.3/cmath \
- /usr/include/math.h /usr/include/bits/huge_val.h \
- /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
- /usr/include/bits/inf.h /usr/include/bits/nan.h \
- /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
- /usr/include/bits/mathinline.h /usr/include/c++/4.8.3/climits \
+ /usr/include/c++/4.8.3/climits \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/limits.h \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
@@ -129,10 +156,6 @@ GameWorld.o: GameWorld.cc /usr/include/stdc-predef.h GameWorld.h \
  /usr/include/c++/4.8.3/cfloat \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/float.h \
  /usr/include/c++/4.8.3/limits /usr/include/glm/core/setup.hpp \
- /usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/emmintrin.h \
- /usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/xmmintrin.h \
- /usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/mmintrin.h \
- /usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/mm_malloc.h \
  /usr/include/glm/core/_detail.hpp /usr/include/glm/core/setup.hpp \
  /usr/include/c++/4.8.3/cassert /usr/include/assert.h \
  /usr/include/glm/core/_vectorize.hpp /usr/include/glm/core/type.hpp \
@@ -204,12 +227,11 @@ GameWorld.o: GameWorld.cc /usr/include/stdc-predef.h GameWorld.h \
  /usr/include/glm/gtc/type_precision.inl /usr/include/glm/gtc/swizzle.inl \
  /usr/include/glm/gtc/type_precision.hpp \
  /usr/include/glm/gtc/type_ptr.hpp /usr/include/c++/4.8.3/cstring \
- /usr/include/string.h /usr/include/glm/gtc/type_ptr.inl \
- /usr/include/glm/gtc/ulp.hpp /usr/include/glm/gtc/ulp.inl \
- /usr/include/glm/gtx/associated_min_max.hpp /usr/include/glm/glm.hpp \
- /usr/include/glm/gtx/associated_min_max.inl /usr/include/glm/gtx/bit.hpp \
- /usr/include/glm/gtc/half_float.hpp /usr/include/glm/gtx/bit.inl \
- /usr/include/glm/gtx/closest_point.hpp \
+ /usr/include/glm/gtc/type_ptr.inl /usr/include/glm/gtc/ulp.hpp \
+ /usr/include/glm/gtc/ulp.inl /usr/include/glm/gtx/associated_min_max.hpp \
+ /usr/include/glm/glm.hpp /usr/include/glm/gtx/associated_min_max.inl \
+ /usr/include/glm/gtx/bit.hpp /usr/include/glm/gtc/half_float.hpp \
+ /usr/include/glm/gtx/bit.inl /usr/include/glm/gtx/closest_point.hpp \
  /usr/include/glm/gtx/closest_point.inl \
  /usr/include/glm/gtx/color_cast.hpp \
  /usr/include/glm/gtx/number_precision.hpp \
@@ -574,11 +596,131 @@ GameWorld.h:
 
 /usr/include/c++/4.8.3/backward/auto_ptr.h:
 
+/usr/include/SDL2/SDL.h:
+
+/usr/include/SDL2/SDL_main.h:
+
+/usr/include/SDL2/SDL_stdinc.h:
+
+/usr/include/SDL2/SDL_config.h:
+
+/usr/include/SDL2/SDL_config-x86_64.h:
+
+/usr/include/SDL2/SDL_platform.h:
+
+/usr/include/SDL2/begin_code.h:
+
+/usr/include/SDL2/close_code.h:
+
+/usr/include/string.h:
+
+/usr/include/strings.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+/usr/include/iconv.h:
+
+/usr/include/SDL2/SDL_assert.h:
+
+/usr/include/SDL2/SDL_atomic.h:
+
+/usr/include/SDL2/SDL_audio.h:
+
+/usr/include/SDL2/SDL_error.h:
+
+/usr/include/SDL2/SDL_endian.h:
+
+/usr/include/SDL2/SDL_mutex.h:
+
+/usr/include/SDL2/SDL_thread.h:
+
+/usr/include/SDL2/SDL_rwops.h:
+
+/usr/include/SDL2/SDL_clipboard.h:
+
+/usr/include/SDL2/SDL_cpuinfo.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/mmintrin.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/xmmintrin.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/mm_malloc.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/emmintrin.h:
+
+/usr/include/SDL2/SDL_events.h:
+
+/usr/include/SDL2/SDL_video.h:
+
+/usr/include/SDL2/SDL_pixels.h:
+
+/usr/include/SDL2/SDL_rect.h:
+
+/usr/include/SDL2/SDL_surface.h:
+
+/usr/include/SDL2/SDL_blendmode.h:
+
+/usr/include/SDL2/SDL_keyboard.h:
+
+/usr/include/SDL2/SDL_keycode.h:
+
+/usr/include/SDL2/SDL_scancode.h:
+
+/usr/include/SDL2/SDL_mouse.h:
+
+/usr/include/SDL2/SDL_joystick.h:
+
+/usr/include/SDL2/SDL_gamecontroller.h:
+
+/usr/include/SDL2/SDL_quit.h:
+
+/usr/include/SDL2/SDL_gesture.h:
+
+/usr/include/SDL2/SDL_touch.h:
+
+/usr/include/SDL2/SDL_filesystem.h:
+
+/usr/include/SDL2/SDL_haptic.h:
+
+/usr/include/SDL2/SDL_hints.h:
+
+/usr/include/SDL2/SDL_loadso.h:
+
+/usr/include/SDL2/SDL_log.h:
+
+/usr/include/SDL2/SDL_messagebox.h:
+
+/usr/include/SDL2/SDL_power.h:
+
+/usr/include/SDL2/SDL_render.h:
+
+/usr/include/SDL2/SDL_system.h:
+
+/usr/include/SDL2/SDL_timer.h:
+
+/usr/include/SDL2/SDL_version.h:
+
 /usr/include/GL/gl.h:
 
 /usr/include/GL/glext.h:
-
-/usr/include/inttypes.h:
 
 common.h:
 
@@ -652,24 +794,6 @@ CubeAsset.h:
 
 /usr/include/c++/4.8.3/cmath:
 
-/usr/include/math.h:
-
-/usr/include/bits/huge_val.h:
-
-/usr/include/bits/huge_valf.h:
-
-/usr/include/bits/huge_vall.h:
-
-/usr/include/bits/inf.h:
-
-/usr/include/bits/nan.h:
-
-/usr/include/bits/mathdef.h:
-
-/usr/include/bits/mathcalls.h:
-
-/usr/include/bits/mathinline.h:
-
 /usr/include/c++/4.8.3/climits:
 
 /usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/limits.h:
@@ -695,14 +819,6 @@ CubeAsset.h:
 /usr/include/c++/4.8.3/limits:
 
 /usr/include/glm/core/setup.hpp:
-
-/usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/emmintrin.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/xmmintrin.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/mmintrin.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/mm_malloc.h:
 
 /usr/include/glm/core/_detail.hpp:
 
@@ -897,8 +1013,6 @@ CubeAsset.h:
 /usr/include/glm/gtc/type_ptr.hpp:
 
 /usr/include/c++/4.8.3/cstring:
-
-/usr/include/string.h:
 
 /usr/include/glm/gtc/type_ptr.inl:
 
