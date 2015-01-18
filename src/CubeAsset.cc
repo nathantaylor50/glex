@@ -100,7 +100,7 @@ void CubeAsset::Draw(GLuint program_token) {
 
   GLuint position_attrib = glGetAttribLocation(program_token, "position");
 
-
+  game_world->Cam(program_token);
 
   checkGLError();
 

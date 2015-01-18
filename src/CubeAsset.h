@@ -9,6 +9,7 @@
 
 #include "GameAsset.h"
 class GameWorld;
+#include "GameWorld.h"
 
 class CubeAsset : public GameAsset {
  public:
@@ -19,7 +20,8 @@ class CubeAsset : public GameAsset {
  private:
   GLuint element_buffer_length;
   GLuint vertex_buffer_token, element_buffer_token;
-  //
+  //storage of pointer
+  std::shared_ptr<GameWorld> game_world;
   GLuint cube_colors_token;
 };
 
