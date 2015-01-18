@@ -12,6 +12,14 @@ On Fedora 20 or later you can install these using a single command (as root):
 
 > $ yum install boost-* glew-devel SDL2_* glm-devel
 
+# controls #
+W - forward
+s - backward
+A - left
+D - right
+Spacebar - up
+X - down
+
 # Building #
 
 After cloning the source code or extracting a distributed archive, change to the
